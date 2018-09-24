@@ -8,6 +8,8 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <form method='post' action='forward.jsp'>
+            Value: <input type='text' name='value'/><input type='submit'/>
+        </form>
     </body>
 </html>
